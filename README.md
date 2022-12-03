@@ -1,5 +1,5 @@
 # kotlin-advent-of-code
-![](https://img.shields.io/badge/Advent%20of%20Code%21🎄-2021-brightgreen)
+![](https://img.shields.io/badge/Advent%20of%20Code%21🎄-2022-brightgreen)
 ![](https://img.shields.io/badge/Language-kotlin-purple)
 ![](https://img.shields.io/badge/day%20📅-3-blue)
 ![](https://img.shields.io/badge/stars%20⭐-6-yellow)
