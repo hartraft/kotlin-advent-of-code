@@ -1,15 +1,22 @@
 fun main() {
-	val pairInNeed = input().split("\n").count { pairs -> 
+	val pairInNeed = countOverlap(input())
+	println("Part1 $pairInNeed")
+
+	val part2 = countOverlap(input(), true)
+	println("Part2 $part2")
+}
+fun countOverlap(input: String, part2: Boolean = false): Int {
+	return input.split("\n").count { pairs -> 
 		val group = pairs.split(",");		
 		val firstElf = convertToRange(group.first())
 		val secondElf = convertToRange(group.last())
-		val test = firstElf.all { secondElf.contains(it) }
-		|| secondElf.all { firstElf.contains(it) }
-		println("${test}")
-		test
+		if (part2) {
+			firstElf.any { secondElf.contains(it) } || secondElf.any { firstElf.contains(it) }
+		} else {
+			firstElf.all { secondElf.contains(it) } || secondElf.all { firstElf.contains(it) }
+		}
 	}
-	
-	println("Total $pairInNeed")
+
 }
 
 fun convertToRange(pairs: String) =
