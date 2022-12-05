@@ -1,9 +1,9 @@
 # kotlin-advent-of-code
 ![](https://img.shields.io/badge/Advent%20of%20Code%21🎄-2022-brightgreen)
 ![](https://img.shields.io/badge/Language-kotlin-purple)
-![](https://img.shields.io/badge/day%20📅-4-blue)
-![](https://img.shields.io/badge/stars%20⭐-6-yellow)
-![](https://img.shields.io/badge/days%20completed-3-red)
+![](https://img.shields.io/badge/day%20📅-5-blue)
+![](https://img.shields.io/badge/stars%20⭐-8-yellow)
+![](https://img.shields.io/badge/days%20completed-4-red)
 
 Welcome to the Advent of Code[^aoc] Kotlin project created by [hartraft][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
 
